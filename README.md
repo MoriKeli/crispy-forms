@@ -13,16 +13,18 @@ Style your forms using django-crispy-forms
 #### 2. Create a project and app using django. (django-admin startproject proj . & django-admin startapp crispy_app).
 #### 3. In your proj folder open settings.py and add crispy_app in the INSTALLED_APPS = [] list.
 
+![set1](https://user-images.githubusercontent.com/78599959/181211003-5ec52c92-418d-4044-bb53-713fccb51d1c.png)
 
 #### 4. In your app (i.e. crispy_app), create a folder called templates. In the templates folder, create another folder named crispy_app.
 
 
 #### 5. In your app, open views.py create a class UserLogin that uses LoginView().
 
+![views](https://user-images.githubusercontent.com/78599959/181211839-a5e29c54-fbcb-4b86-b8af-173219ba4f8a.png)
 
+#### 6. Create a index.html in the crispy_app (located in the templates folder) and add the create a HTML form.
 
-#### 6. Create a index.html in the crispy_app (located in the templates folder).
-
+![index-form](https://user-images.githubusercontent.com/78599959/181211957-d0dbf2a3-40cb-4033-a48e-ff07c580096a.png)
 
 #### Initial Output
 
@@ -33,6 +35,8 @@ Style your forms using django-crispy-forms
 ###### 1. Open your terminal or cmd.
 ###### 2. Type pip install django-crispy-forms and press Enter.
 ###### 3. In your settings.py add the installed app in INSTALLED_APPS = []
+
+![set2](https://user-images.githubusercontent.com/78599959/181211375-e78c3685-b68e-46d2-96af-fad4e9aeaaca.png)
 
 ###### 4. Create a variable, CRISPY_TEMPLATE_PACK = ''.
 ###### 5. Download Boostrap 3 or 4. Extract the zip file.
